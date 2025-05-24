@@ -36,7 +36,7 @@ const generateMajorArcana = (): TarotCard[] => {
     id: `MA${id}`,
     name,
     meaning: `General meaning for ${name}. Represents major life lessons and archetypal themes.`,
-    image: `/images/tarot/${filename}.jpg`,
+    image: `/images/tarot/${filename}`,
     keywords: name.toLowerCase().split(' '),
   }));
 };
