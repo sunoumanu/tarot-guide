@@ -1,6 +1,10 @@
 # Firebase Studio
-Mystic tarot guide to get cards reading.
+
+Mystic tarot guide to get cards reading. Build with Firebase Studio https://studio.firebase.google.com/
+
 Framework: Next.js
+
+Demo site: http://89.110.119.14:3000
 
 # Requirements:
 
