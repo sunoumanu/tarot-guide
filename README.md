@@ -1,11 +1,10 @@
 # Firebase Studio
 Mystic tarot guide to get cards reading.
-
 Framework: Next.js
-npm -v: 11.1.0
-node -v: v20.17.0
 
 # Requirements:
+npm -v: 11.1.0
+node -v: v20.17.0
 Google Gemini API key
 
 # Build project:
