@@ -106,9 +106,9 @@ export const SPREADS: Spread[] = [
   },
   {
     id: 'celtic-cross',
-    name: 'Celtic Cross (Simplified)',
-    description: 'A more in-depth look at a situation. (Simplified for this app)',
-    cardCount: 5, // Simplified version
+    name: 'Celtic Cross',
+    description: 'A more in-depth look at a situation, exploring various aspects and influences.',
+    cardCount: 5,
     positions: [
       { name: 'The Present', description: 'The current situation or the querent\'s state of mind.' },
       { name: 'The Challenge', description: 'Immediate challenges or obstacles affecting the situation.' },

@@ -9,6 +9,11 @@ const geistSans = GeistSans;
 export const metadata: Metadata = {
   title: 'Mystic Guide',
   description: 'Your personal Tarot reading companion.',
+  icons: {
+    shortcut: '/favicon.ico',
+    icon: '/icon.png',
+    apple: '/icon.png'
+  }
 };
 
 export default function RootLayout({
