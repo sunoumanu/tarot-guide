@@ -138,3 +138,7 @@
   /* Styling for the back of the card */
   @apply bg-primary/90 border-primary flex items-center justify-center;
 }
+
+.text-primary {
+  color: hsl(var(--accent));
+}
