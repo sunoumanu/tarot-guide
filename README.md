@@ -18,5 +18,7 @@ npm run start
 docker build -t tarot-guide .
 
 # Run application:
+
 create mysecrets.env file with GEMINI_API_KEY=<YOUR API KEY>
+
 docker run -d --env-file ./mysecrets.env --restart always -p 3000:3000 tarot-guide
