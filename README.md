@@ -4,7 +4,7 @@ Mystic tarot guide to get cards reading. Build with Firebase Studio https://stud
 
 Framework: Next.js
 
-Demo site: http://89.110.119.14:3000
+Demo site: http://89.110.119.14:80
 
 # Requirements:
 
