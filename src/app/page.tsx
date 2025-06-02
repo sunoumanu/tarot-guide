@@ -14,6 +14,7 @@ import { useToast } from "@/hooks/use-toast";
 import { ArrowLeft, Shuffle, Save, Sparkles, HelpCircle, Loader2, Wand2 } from 'lucide-react';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Separator } from '@/components/ui/separator';
+import { useTranslations } from 'next-intl';
 
 type ReadingStep = 'spreadSelection' | 'cardSelection' | 'readingDisplay';
 
@@ -28,6 +29,7 @@ function shuffleArray<T>(array: T[]): T[] {
 }
 
 export default function TarotPage() {
+  const t = useTranslations();
   const [currentStep, setCurrentStep] = useState<ReadingStep>('spreadSelection');
   const [selectedSpread, setSelectedSpread] = useState<Spread | null>(null);
   const [deck, setDeck] = useState<TarotCard[]>([]);
@@ -122,7 +124,7 @@ export default function TarotPage() {
     <div className="w-full max-w-4xl mx-auto">
       {currentStep !== 'spreadSelection' && (
         <Button variant="outline" onClick={resetFlow} className="mb-6 text-sm">
-          <ArrowLeft className="mr-2 h-4 w-4" /> Start Over
+          <ArrowLeft className="mr-2 h-4 w-4" /> {t('actions.startOver')}
         </Button>
       )}
 

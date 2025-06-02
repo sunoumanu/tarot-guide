@@ -1,0 +1,27 @@
+{
+  "app": {
+    "title": "Mystic Guide",
+    "description": "Your personal Tarot reading companion",
+    "copyright": "© {year} Mystic Guide. All rights reserved."
+  },
+  "spreads": {
+    "single": {
+      "name": "Single Card Draw",
+      "description": "Quick insight or guidance on a specific question or general theme for the day."
+    },
+    "three-card": {
+      "name": "Three-Card Spread",
+      "description": "A versatile spread for exploring past, present, and future, or a situation, action, and outcome."
+    }
+  },
+  "actions": {
+    "startOver": "Start Over",
+    "drawCard": "Draw Card ({count} left)",
+    "getReading": "Get Your Reading"
+  },
+  "cards": {
+    "drawFor": "Draw Cards for: {spreadName}",
+    "nextCard": "Next card for: {position}",
+    "drawCount": "Draw {count} {count, plural, one {card} other {cards}}."
+  }
+}

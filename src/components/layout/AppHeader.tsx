@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { BookOpen, Wand2 } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
+import LanguageSwitcher from '../tarot/LanguageSwitcher';
 
 export default function AppHeader() {
   const pathname = usePathname();
@@ -24,6 +25,7 @@ export default function AppHeader() {
           </h1>
         </Link>
         <nav className="flex items-center gap-6">
+          <LanguageSwitcher />
           <Link href="/" className={navLinkClasses('/')}>
             New Reading
           </Link>
