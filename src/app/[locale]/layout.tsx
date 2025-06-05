@@ -5,20 +5,22 @@ import { Toaster } from "@/components/ui/toaster";
 
 async function getMessages(locale: string) {
   try {
-    return (await import(`@/messages/${locale}.json`)).default;
+    const messages = await import(`@/messages/${locale}.json`);
+    return messages.default;
   } catch (error) {
     console.error('Error loading messages:', error);
-    return {}; // Fallback to empty messages rather than notFound()
+    notFound();
   }
 }
 
 export default async function LocaleLayout({
   children,
-  params: { locale }
+  params,
 }: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  const { locale } = await params;
   const messages = await getMessages(locale);
 
   return (
@@ -32,4 +34,11 @@ export default async function LocaleLayout({
       </div>
     </NextIntlClientProvider>
   );
+}
+
+export function generateStaticParams() {
+  return [
+    { locale: 'en' },
+    { locale: 'es' }
+  ];
 }
