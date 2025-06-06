@@ -1,27 +1,27 @@
 {
   "app": {
-    "title": "Mystic Guide",
-    "description": "Your personal Tarot reading companion",
-    "copyright": "© {year} Mystic Guide. All rights reserved."
+    "title": "Guía Mística",
+    "description": "Tu compañero personal de lectura del Tarot",
+    "copyright": "© {year} Guía Mística. Todos los derechos reservados."
   },
   "spreads": {
     "single": {
-      "name": "Single Card Draw",
-      "description": "Quick insight or guidance on a specific question or general theme for the day."
+      "name": "Tirada de Una Carta",
+      "description": "Visión rápida o guía sobre una pregunta específica o tema general del día."
     },
     "three-card": {
-      "name": "Three-Card Spread",
-      "description": "A versatile spread for exploring past, present, and future, or a situation, action, and outcome."
+      "name": "Tirada de Tres Cartas",
+      "description": "Una tirada versátil para explorar pasado, presente y futuro, o una situación, acción y resultado."
     }
   },
   "actions": {
-    "startOver": "Start Over",
-    "drawCard": "Draw Card ({count} left)",
-    "getReading": "Get Your Reading"
+    "startOver": "Empezar de Nuevo",
+    "drawCard": "Sacar Carta ({count} restantes)",
+    "getReading": "Obtener Tu Lectura"
   },
   "cards": {
-    "drawFor": "Draw Cards for: {spreadName}",
-    "nextCard": "Next card for: {position}",
-    "drawCount": "Draw {count} {count, plural, one {card} other {cards}}."
+    "drawFor": "Sacar cartas para: {spreadName}",
+    "nextCard": "Siguiente carta para: {position}",
+    "drawCount": "Sacar {count} {count, plural, one {card} other {cards}}."
   }
 }
