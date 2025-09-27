@@ -4,8 +4,6 @@ Mystic tarot guide to get cards reading. Build with Firebase Studio https://stud
 
 Framework: Next.js
 
-Demo site: http://89.110.119.14:80
-
 # Requirements:
 
 npm -v: 11.1.0
@@ -37,3 +35,4 @@ create mysecrets.env file with ```GEMINI_API_KEY=<YOUR API KEY>```
 ```
 docker run -d --env-file ./mysecrets.env --restart always -p 3000:3000 tarot-guide
 ```
+
